@@ -27,7 +27,7 @@ class Definition:
 
 @dataclass
 class Call:
-    callee: str        # text of the thing being called, e.g. "foo" or "self.bar"
+    callee: str        # text of the thing being called, e.g. " " or "self.bar"
     line: int
     caller: str | None # enclosing function name, None if module level
 
